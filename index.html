@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anupam Patil – Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout ── */
+    .page {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(0,0,0,.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #24292e;
+      color: #fff;
+      padding: 40px 48px;
+    }
+    header h1 { font-size: 2.4rem; letter-spacing: .5px; }
+    header p.tagline { margin-top: 6px; font-size: 1.05rem; color: #adb5bd; }
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 18px;
+      font-size: .9rem;
+      color: #ced4da;
+    }
+    .contact-row a { color: #79b8ff; }
+    .contact-row span::before { content: "• "; }
+
+    /* ── Main body ── */
+    main { padding: 40px 48px; }
+
+    section { margin-bottom: 36px; }
+    section h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #24292e;
+      border-bottom: 2px solid #e1e4e8;
+      padding-bottom: 6px;
+      margin-bottom: 18px;
+    }
+
+    /* ── Summary ── */
+    .summary p { font-size: .97rem; }
+
+    /* ── Experience / Education ── */
+    .entry { margin-bottom: 22px; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .entry-header h3 { font-size: 1rem; color: #24292e; }
+    .entry-header .org { font-weight: 600; color: #0366d6; }
+    .entry-header .date { font-size: .85rem; color: #6a737d; white-space: nowrap; }
+    .entry ul { margin: 8px 0 0 18px; font-size: .93rem; }
+    .entry ul li { margin-bottom: 4px; }
+
+    /* ── Skills ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    .skill-category h4 { font-size: .85rem; color: #6a737d; margin-bottom: 6px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag {
+      background: #f1f8ff;
+      border: 1px solid #c8e1ff;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: .82rem;
+      color: #0366d6;
+    }
+
+    /* ── Projects ── */
+    .project { margin-bottom: 16px; }
+    .project h3 { font-size: .97rem; }
+    .project p { font-size: .92rem; margin-top: 4px; color: #444; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #f6f8fa;
+      font-size: .82rem;
+      color: #6a737d;
+      border-top: 1px solid #e1e4e8;
+    }
+
+    @media (max-width: 600px) {
+      header, main { padding: 28px 24px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ─── HEADER ─── -->
+  <header>
+    <h1>Anupam Patil</h1>
+    <p class="tagline">Software Developer</p>
+    <div class="contact-row">
+      <span><a href="https://github.com/patilanupam" target="_blank" rel="noopener">github.com/patilanupam</a></span>
+      <span>📍 India</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ─── SUMMARY ─── -->
+    <section class="summary">
+      <h2>About</h2>
+      <p>
+        Passionate software developer with a keen interest in building reliable,
+        scalable applications. Enthusiastic about open-source collaboration and
+        continuously expanding technical skills.
+      </p>
+    </section>
+
+    <!-- ─── SKILLS ─── -->
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Languages</h4>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">C/C++</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Web</h4>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Tools &amp; Platforms</h4>
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Databases</h4>
+          <div class="tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EDUCATION ─── -->
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Bachelor of Engineering – Computer Science</h3>
+            <span class="org">University / College Name</span>
+          </div>
+          <span class="date">2020 – 2024</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIENCE ─── -->
+    <section>
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Software Developer Intern</h3>
+            <span class="org">Company Name</span>
+          </div>
+          <span class="date">Jun 2023 – Aug 2023</span>
+        </div>
+        <ul>
+          <li>Developed and maintained web application features using JavaScript and React.</li>
+          <li>Collaborated with the team using Git and participated in code reviews.</li>
+          <li>Improved application performance by optimising database queries.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ─── -->
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3><a href="https://github.com/patilanupam" target="_blank" rel="noopener">GitHub Projects</a></h3>
+        <p>A collection of open-source projects and contributions available on GitHub.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; <span id="yr"></span> Anupam Patil ·
+    <a href="https://github.com/patilanupam" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+</div>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
