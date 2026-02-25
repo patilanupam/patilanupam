@@ -31,7 +31,6 @@ class AnupamPatil:
     def __init__(self):
         self.name        = "Anupam Patil"
         self.role        = "AI / GenAI Engineer"
-        self.location    = "India 🇮🇳"
         self.email       = "anupampatil9@gmail.com"
 
     @property
