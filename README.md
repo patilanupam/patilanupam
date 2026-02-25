@@ -156,8 +156,8 @@ class AnupamPatil:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=patilanupam&show_icons=true&theme=github_dark&hide_border=true&border_radius=8&include_all_commits=true&count_private=true&cache_seconds=86400" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=patilanupam&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true&border_radius=8&cache_seconds=86400" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=patilanupam&show_icons=true&theme=github_dark&hide_border=true&border_radius=8&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=patilanupam&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true&border_radius=8" height="165" alt="Top Languages" />
 </div>
 
 <div align="center">
