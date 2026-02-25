@@ -94,13 +94,13 @@ class AnupamPatil:
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🎫 GenAI KATA Tickets Dashboard</h3>
+      <h3 align="center">🎫 Term-Insurance-Classifier</h3>
       <p align="center">
-        <a href="https://github.com/patilanupam/GenAI_KATA_Tickets_Dashboard" target="_blank">
+        <a href="https://github.com/patilanupam/Term-Insurance-Classifier" target="_blank">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
-      <p align="center">Support Ticket Analysis via a custom GenAI-powered dashboard with data visualization.</p>
+      <p align="center">Intelligent insurance Classifier.</p>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/GenAI-412991?style=flat&logo=openai&logoColor=white" />
